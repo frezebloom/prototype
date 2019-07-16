@@ -4,11 +4,17 @@
 2. Устанавливаем менеджер пакетов
   yarn (https://yarnpkg.com/lang/en/)
 
-3. Заходим в папку api и скачиваем зависимости
-  yarn install
+3. Скачиваем зависимости для api
+  cd api && yarn install
 
-4. Запуск в режиме разработки
-  yarn dev 
+4. Запускаем api
+  node app.js
 
-5. Сброка 
+5. Скачиваем зависимости для фронта
+  cd ../frontednt/ && yarn install
+
+6. Запуск в dev режиме
+  yarn dev
+
+7. Сброка 
   yarn build
