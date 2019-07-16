@@ -1,0 +1,28 @@
+.task-list {
+  display: inline-block;
+  padding: 5px;
+  height: 10px;
+}
+.success {
+  background-image: url('../assets/success.png');
+  background-size: cover;
+  height: 24px;
+  width: 24px;
+}
+.processing {
+  background-image: url('../assets/processing.png');
+  background-size: cover;
+  height: 24px;
+  width: 24px;
+}
+.warning {
+  background-image: url('../assets/warning.png');
+  background-size: cover;
+  height: 24px;
+  width: 24px;
+}
+.task-list-footer {
+  height: 3px;
+  width: 100%;
+  background-color: #f0f0f0;
+}

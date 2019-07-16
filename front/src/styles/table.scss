@@ -1,0 +1,69 @@
+.table-wrapper-left {
+  width: 100%;
+  overflow-y: auto;
+  height: 200px;
+  position: relative;
+   font-family: "SF UI Text", "Segoe UI", "Roboto", Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  border-right: 1px solid #e4e7eb;
+  background-image: linear-gradient(to left, #FFFFFF, #F4F5F7);
+}
+.table-wrapper-right {
+  width: 100%;
+  overflow-y: auto;
+  height: 200px;
+  position: relative;
+   font-family: "SF UI Text", "Segoe UI", "Roboto", Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  border-right: 1px solid #e4e7eb;
+  background-image: linear-gradient(to right, #FFFFFF, #F4F5F7);
+}
+table {
+  width: 100%;
+  border-spacing: 0;
+  color: #435a6f;
+  border-collapse: collapse;
+  font-size: 12px;
+  text-align: center;
+  background-color: white;
+  user-select: none;   
+}
+thead th {
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #e4e7eb;
+}
+tbody th {
+  position: sticky;
+  left: 0;
+}
+thead th:first-child {
+  left: 0;
+  z-index: 1;
+
+}
+table {
+  border-collapse: collapse;
+}
+td,
+th {
+  font-weight: normal;
+  border-bottom: 1px solid #e4e7eb;
+  padding: 7px;
+  cursor: pointer;
+}
+tr:hover {
+  background-color: #f9f9fb;
+}
+.table-message {
+  position: absolute;
+  font-size: 15px;
+  color: #435a6f;
+  font-weight: 500;
+  width: 50%;
+  margin-left: -25%;
+  left: 50%;
+  top: 50%
+}
